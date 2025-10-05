@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { Menu, X } from 'lucide-react';
 import { useState } from 'react';
 
@@ -16,8 +17,9 @@ export default function Header() {
   return (
     <header className="fixed w-full bg-white shadow-md z-50">
       <div className="container mx-auto px-4 py-3 flex justify-between items-center">
-        <a href="#home" className="text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
-          Shri Swami Samartha
+        <a href="#home" className=" flex items-center text-2xl font-bold text-blue-600 hover:text-blue-700 transition">
+         <Image src="/logo.png" alt="Logo" width={50} height={50} className="mr-2 rounded-full" />
+          <span>Shri Swami Samartha</span>
         </a>
         <nav className="hidden md:flex items-center space-x-8">
           <a href="#home" className="text-gray-700 hover:text-blue-600 transition">Home</a>
