@@ -1,7 +1,15 @@
 import Link from 'next/link';
-import { CalendarDays } from 'lucide-react';
+import { Clock } from 'lucide-react';
 
-const blogPosts = [
+interface BlogPost {
+  id: number;
+  title: string;
+  excerpt: string;
+  date: string;
+  readTime: string;
+}
+
+const blogPosts: BlogPost[] = [
   {
     id: 1,
     title: "Understanding Homeopathy: A Natural Approach to Healing",
@@ -53,7 +61,7 @@ export default function Blog() {
               </div>
               <div className="p-6">
                 <div className="flex items-center text-sm text-gray-500 mb-3">
-                  <CalendarDays className="w-4 h-4 mr-1" />
+                  <Clock className="w-4 h-4 mr-1" />
                   <span>{post.date}</span>
                   <span className="mx-2">•</span>
                   <span>{post.readTime}</span>

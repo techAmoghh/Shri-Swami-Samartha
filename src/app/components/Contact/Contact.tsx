@@ -49,7 +49,6 @@ const Contact = () => {
             <div className="text-center">
               <p className="text-gray-700">
                 Maharshi Nagar, <br />
-                Near Sant Namdev Highschool, <br />
                 Opp. Pujari Garden, <br />
                 Pune - 411037.
               </p>
