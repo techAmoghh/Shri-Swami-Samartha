@@ -20,7 +20,7 @@ export const viewport = {
 };
 
 export const metadata: Metadata = {
-  title: 'HomeoCare - Your Trusted Homeopathy Clinic',
+  title: 'Shri Swami Samartha',
   description: 'Experience natural healing with our personalized homeopathic treatments. Your journey to better health starts here.',
   keywords: 'homeopathy, natural healing, alternative medicine, holistic health, homeopathic treatment',
   icons: {
@@ -37,8 +37,8 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://homeocare.example.com',
-    title: 'HomeoCare - Your Trusted Homeopathy Clinic',
+    url: 'https://shriswamisamartha.com',
+    title: 'Shri Swami Samartha',
     description: 'Experience natural healing with our personalized homeopathic treatments.',
     siteName: 'Shri Swami Samartha',
   },

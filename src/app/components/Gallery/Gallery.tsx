@@ -2,12 +2,12 @@ import Image from 'next/image';
 
 // Placeholder images - replace with actual clinic/treatment images
 const galleryImages = [
-  { id: 1, src: '/images/gallery/consultation.jpg', alt: 'Doctor Consultation' },
-  { id: 2, src: '/images/gallery/clinic.jpg', alt: 'Clinic Interior' },
-  { id: 3, src: '/images/gallery/medicine.jpg', alt: 'Homeopathic Medicine' },
-  { id: 4, src: '/images/gallery/treatment.jpg', alt: 'Treatment Room' },
-  { id: 5, src: '/images/gallery/herbs.jpg', alt: 'Natural Herbs' },
-  { id: 6, src: '/images/gallery/patient-care.jpg', alt: 'Patient Care' },
+  { id: 1, src: '/gal1.png', alt: 'Doctor Consultation' },
+  { id: 2, src: '/gal7.png', alt: 'Clinic Interior' },
+  { id: 3, src: '/gal2.png', alt: 'Homeopathic Medicine' },
+  { id: 4, src: '/gal6.png', alt: 'Treatment Room' },
+  { id: 5, src: '/gal4.png', alt: 'Natural Herbs' },
+  { id: 6, src: '/gal5.png', alt: 'Patient Care' },
 ];
 
 export default function Gallery() {
@@ -28,18 +28,14 @@ export default function Gallery() {
               key={image.id}
               className="group relative overflow-hidden rounded-xl shadow-md hover:shadow-xl transition-shadow duration-300"
             >
-              <div className="aspect-w-16 aspect-h-9 w-full h-64">
-                <div className="w-full h-full bg-gray-200 flex items-center justify-center text-gray-400">
-                  {image.alt} (Image {image.id})
-                </div>
-                {/* In a real app, you would use the Image component like this:
+              <div className="relative w-full h-64">
                 <Image
                   src={image.src}
                   alt={image.alt}
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-300"
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 />
-                */}
               </div>
               <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                 <span className="text-white font-medium text-lg">{image.alt}</span>
