@@ -24,14 +24,7 @@ export const metadata: Metadata = {
   description: 'Experience natural healing with our personalized homeopathic treatments. Your journey to better health starts here.',
   keywords: 'homeopathy, natural healing, alternative medicine, holistic health, homeopathic treatment',
   icons: {
-    icon: [
-      { url: '/favicon.png', type: 'image/png' },
-      { url: '/favicon-16x16.png', sizes: '16x16', type: 'image/png' },
-      { url: '/favicon-32x32.png', sizes: '32x32', type: 'image/png' },
-    ],
-    apple: [
-      { url: '/apple-touch-icon.png', type: 'image/png' },
-    ],
+    icon: '/favicon.png',
   },
   manifest: '/site.webmanifest',
   openGraph: {
