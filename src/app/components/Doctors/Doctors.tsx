@@ -17,9 +17,13 @@ const Doctors = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 max-w-5xl mx-auto">
           {/* Dr. Harish G. Patil */}
           <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02]">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-6 text-white">
-              <h3 className="text-2xl font-bold">Dr. Harish G. Patil</h3>
-              <p className="text-blue-100">Homeopathic & Psychological Consultant</p>
+            <div className="relative p-10 text-white overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-10"></div>
+              <div className="absolute inset-0 bg-[url('/homeo-doc.png')] bg-cover bg-right opacity-90"></div>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold">Dr. Harish G. Patil</h3>
+                <p className="text-blue-100">Homeopathic & Psychological Consultant</p>
+              </div>
             </div>
             
             <div className="p-6">
@@ -66,9 +70,13 @@ const Doctors = () => {
 
           {/* Dr. Mrs. Roopali H. Patil */}
           <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg transition-transform hover:scale-[1.02]">
-            <div className="bg-gradient-to-r from-blue-600 to-blue-800 p-6 text-white">
-              <h3 className="text-2xl font-bold">Dr. Mrs. Roopali H. Patil</h3>
-              <p className="text-blue-100">Ayurvedic Consultant</p>
+            <div className="relative p-10 text-white overflow-hidden">
+              <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-10"></div>
+              <div className="absolute inset-0 bg-[url('/ayurvedic-doc.png')] bg-cover bg-center opacity-90 blur-xs"></div>
+              <div className="relative z-10">
+                <h3 className="text-2xl font-bold">Dr. Mrs. Roopali H. Patil</h3>
+                <p className="text-blue-100">Ayurvedic Consultant</p>
+              </div>
             </div>
             
             <div className="p-6">
