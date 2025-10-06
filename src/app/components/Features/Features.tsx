@@ -1,18 +1,18 @@
-import { HeartPulse, ShieldCheck, Users } from 'lucide-react';
+import { FaHeart, FaShieldAlt, FaUsers } from 'react-icons/fa';
 
 const features = [
   {
-    icon: <HeartPulse className="w-12 h-12 text-blue-600" />,
+    icon: <FaHeart className="w-12 h-12 text-blue-600" />,
     title: "Experienced Practitioners",
     description: "Our team of certified homeopathic doctors brings years of experience in treating various health conditions with natural remedies."
   },
   {
-    icon: <ShieldCheck className="w-12 h-12 text-blue-600" />,
+    icon: <FaShieldAlt className="w-12 h-12 text-blue-600" />,
     title: "Safe & Natural Treatment",
     description: "We use only the purest natural ingredients to create personalized treatment plans without harmful side effects."
   },
   {
-    icon: <Users className="w-12 h-12 text-blue-600" />,
+    icon: <FaUsers className="w-12 h-12 text-blue-600" />,
     title: "Patient-Centered Care",
     description: "Your health is our priority. We provide personalized care tailored to your specific needs and health goals."
   }

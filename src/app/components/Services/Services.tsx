@@ -1,33 +1,33 @@
-import { Leaf, Heart, Brain, Bone, Droplets, Activity } from 'lucide-react';
+import { FaLeaf, FaHeart, FaBrain, FaBone, FaTint, FaHeartbeat } from 'react-icons/fa';
 
 const services = [
   {
-    icon: <Leaf className="w-8 h-8 text-blue-600" />,
+    icon: <FaLeaf className="w-8 h-8 text-blue-600" />,
     title: "Chronic Diseases",
     description: "Effective treatment for chronic conditions like arthritis, diabetes, and hypertension with natural remedies."
   },
   {
-    icon: <Heart className="w-8 h-8 text-blue-600" />,
+    icon: <FaHeart className="w-8 h-8 text-blue-600" />,
     title: "Heart Care",
     description: "Holistic approach to cardiovascular health and prevention of heart-related conditions."
   },
   {
-    icon: <Brain className="w-8 h-8 text-blue-600" />,
+    icon: <FaBrain className="w-8 h-8 text-blue-600" />,
     title: "Neurological Care",
     description: "Specialized care for neurological disorders including migraines and nerve-related conditions."
   },
   {
-    icon: <Bone className="w-8 h-8 text-blue-600" />,
+    icon: <FaBone className="w-8 h-8 text-blue-600" />,
     title: "Bone & Joint Care",
     description: "Natural solutions for arthritis, osteoporosis, and joint pain management."
   },
   {
-    icon: <Droplets className="w-8 h-8 text-blue-600" />,
+    icon: <FaTint className="w-8 h-8 text-blue-600" />,
     title: "Skin Care",
     description: "Treatment for various skin conditions like eczema, psoriasis, and acne."
   },
   {
-    icon: <Activity className="w-8 h-8 text-blue-600" />,
+    icon: <FaHeartbeat className="w-8 h-8 text-blue-600" />,
     title: "Respiratory Care",
     description: "Natural relief for asthma, allergies, and other respiratory conditions."
   }
